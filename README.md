@@ -44,8 +44,8 @@ with the following parameters (see paper for details):
 * `sizeGrp` size of groups
 * `randomGrps` type of groups (`1` for random groups, `0` for interval groups)
 * `maxit` maximum number of iterations
-* `adapt_tol` flag for prox precision (`1` to decrease linearly with iterations, `0` otherwise)
-* `tol` prox initial precision
+* `adapt_tol` flag for prox operator precision (`1` to decrease linearly with iterations, `0` otherwise)
+* `tol` prox operator initial precision
 
 **Dependencies**: CVX [GB14], and Gurobi [G15].
 
